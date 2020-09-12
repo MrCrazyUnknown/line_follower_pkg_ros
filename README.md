@@ -28,24 +28,24 @@ This package holds a 'Line following Robot'.
 ### Usage:
 
 - First install the package:
-    ```linux shell
-    cd <workspace>/src
-    git clone https://github.com/MrCrazyUnknown/line_follower_pkg_ros
-    cd ..
-    catkin build line_follower
+    ```sh
+    $ cd <workspace>/src
+    $ git clone https://github.com/MrCrazyUnknown/line_follower_pkg_ros
+    $ cd ..
+    $ catkin build line_follower
     ```
     
 - Next, use it:
-    ```linux shell
-    roslaunch line_follower arena.launch
+    ```sh
+    $ roslaunch line_follower arena.launch
     ```
     In a new terminal tab:
-    ```linux shell
-    rosrun rqt_reconfigure rqt_reconfigure
+    ```sh
+    $ rosrun rqt_reconfigure rqt_reconfigure
     ```
     In another new terminal tab:
-    ```linux shell
-    rosrun line_follower Movement.py
+    ```sh
+    $ rosrun line_follower Movement.py
     ```
     Now, refresh the 'dynamic reconfiguration' window.
     
@@ -61,23 +61,23 @@ This package holds a 'Line following Robot'.
 - Alternate Usages (Only launch the world using `roslaunch line_follower arena.launch`):
 
     Using the keyboard_teleop (No need to install the teleop pkg):
-    ```linux shell
-    rosrun line_follower teleop.py
+    ```sh
+    $ rosrun line_follower teleop.py
     ```
     
     Viewing the camera input:
-    ```linux shell
-    rosrun line_follower CamRcv.py
+    ```sh
+    $ rosrun line_follower CamRcv.py
     ```
     
     Viewing the Image_Processing involved:
-    ```linux shell
-    rosrun line_follower threshold.py
+    ```sh
+    $ rosrun line_follower threshold.py
     ```
     
     Controlling the bot using cv2(trackbars):
-    ```linux shell
-    rosrun line_follower AutoMove.py
+    ```sh
+    $ rosrun line_follower AutoMove.py
     ```
     
 ---
