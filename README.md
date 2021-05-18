@@ -1,8 +1,13 @@
 # line_follower_pkg_ros
----_Made by: Suyash Verma (MrCrazyUnknown)_
+---_Creator: Suyash Verma_
 ## line_follower package for ROS (with a test arena)
 
-This package holds a 'Line following Robot'.
+![Sample of a test run](https://raw.githubusercontent.com/SuyashVerma2311/line_follower_pkg_ros/master/data/line_follower_run.gif)
+
+
+  
+  
+This package holds the 'Line following Robot'.
 
 ---
 ### Features:
