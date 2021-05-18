@@ -1,4 +1,4 @@
-# line_follower_pkg_ros
+# _Line Follower_ (ros package)
 ---_Creator: Suyash Verma_
 ## line_follower package for ROS (with a test arena)
 
